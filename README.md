@@ -35,9 +35,6 @@ Each agent makes a very structured request and expects a very structured respons
 **Why immutable audit logs?**
 SQLite triggers prevent any UPDATE or DELETE on the event_log table. This isn't a nice-to-have — if you're using this for anything finance-adjacent, you need to be able to prove what the system decided and why, without worrying that someone cleaned it up after the fact.
 
-**Why the $1.50 cost limit?**
-Hard stop on cumulative API spend. It's configurable, but it defaults to something low so you notice if something is wrong (runaway retry loops, unexpectedly large invoices) before it costs you.
-
 ---
 
 ## Architecture
