@@ -1,0 +1,45 @@
+INVOICE
+
+From: TechSolutions Inc.
+Vendor ID: VEND-001
+Invoice Number: INV-2026-0042
+Invoice Date: 2026-04-28
+Due Date: 2026-05-28
+Payment Terms: Net 30
+
+Bill To:
+Acme Corporation
+123 Business Ave, Suite 400
+San Francisco, CA 94102
+
+Line Items:
+1. CRM Software License (SaaS-CRM)
+   Quantity: 10 seats
+   Unit Price: $120.00
+   Total: $1,200.00
+
+2. Project Management Tool (SaaS-ProjectMgmt)
+   Quantity: 5 seats
+   Unit Price: $45.00
+   Total: $225.00
+
+3. IT Consulting Services (Consulting-IT)
+   Quantity: 8 hours
+   Unit Price: $200.00
+   Total: $1,600.00
+
+Subtotal: $3,025.00
+Tax (8%): $242.00
+Grand Total: $3,267.00
+
+Currency: USD
+
+Payment Instructions:
+Please remit payment via wire transfer to:
+Bank: First National Bank
+Account: 1234567890
+Routing: 021000021
+
+Thank you for your business.
+TechSolutions Inc.
+support@techsolutions.example.com

@@ -1,0 +1,40 @@
+INVOICE
+
+From: ShadyVendor LLC
+Vendor ID: VEND-999
+Invoice Number: INV-2026-UNKNOWN
+Invoice Date: 2026-04-30
+Due Date: 2026-05-15
+Payment Terms: Net 15
+
+Bill To:
+Acme Corporation
+
+Line Items:
+1. Premium Data Harvesting Service
+   Quantity: 1 month
+   Unit Price: $4,500.00
+   Total: $4,500.00
+
+2. Offshore Data Processing Package
+   Quantity: 1
+   Unit Price: $3,000.00
+   Total: $3,000.00
+
+3. Mystery Consulting Bundle
+   Quantity: 1
+   Unit Price: $8,000.00
+   Total: $8,000.00
+
+4. CRM Software License (SaaS-CRM)
+   Quantity: 5 seats
+   Unit Price: $120.00
+   Total: $600.00
+
+Subtotal: $16,100.00
+Tax (8%): $1,288.00
+Grand Total: $17,388.00
+
+Currency: USD
+
+Notes: Payment required within 15 days or late fees apply.

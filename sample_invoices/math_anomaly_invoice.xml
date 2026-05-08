@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice>
+  <Header>
+    <VendorName>CloudPlatform Corp.</VendorName>
+    <VendorID>VEND-002</VendorID>
+    <InvoiceNumber>CLOUD-2026-APR-001</InvoiceNumber>
+    <InvoiceDate>2026-04-01</InvoiceDate>
+    <DueDate>2026-05-01</DueDate>
+    <PaymentTerms>Net 30</PaymentTerms>
+    <Currency>USD</Currency>
+  </Header>
+  <LineItems>
+    <Item>
+      <Description>AWS Cloud Services (Cloud-AWS)</Description>
+      <Quantity>1</Quantity>
+      <UnitPrice>5000.00</UnitPrice>
+      <Total>5000.00</Total>
+    </Item>
+    <Item>
+      <Description>Cloud Storage Service (Cloud-Storage)</Description>
+      <Quantity>1</Quantity>
+      <UnitPrice>300.00</UnitPrice>
+      <Total>300.00</Total>
+    </Item>
+    <Item>
+      <Description>AWS Cloud Services (Cloud-AWS)</Description>
+      <Quantity>1</Quantity>
+      <UnitPrice>5000.00</UnitPrice>
+      <Total>5000.00</Total>
+    </Item>
+    <Item>
+      <Description>Network Equipment (Hardware-Network)</Description>
+      <Quantity>2</Quantity>
+      <UnitPrice>2500.00</UnitPrice>
+      <Total>5500.00</Total>
+    </Item>
+  </LineItems>
+  <Totals>
+    <Subtotal>14800.00</Subtotal>
+    <Tax>1200.00</Tax>
+    <GrandTotal>17000.00</GrandTotal>
+  </Totals>
+  <Notes>
+    This invoice contains intentional issues for testing:
+    1. Duplicate line item: AWS Cloud Services appears twice
+    2. Math error: line items sum to 15800, subtotal says 14800
+    3. Grand total is suspiciously round (17000)
+    4. Network Equipment unit math: 2 x 2500 = 5000, not 5500
+  </Notes>
+</Invoice>
