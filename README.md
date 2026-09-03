@@ -67,7 +67,7 @@ The orchestrator runs this pipeline in a background thread after the upload retu
 
 ```bash
 # Clone and install Python deps
-git clone https://github.com/YOUR_USERNAME/invoiceguard.git
+git clone https://github.com/Ash-git-create/invoiceguard.git
 cd invoiceguard
 pip install -r requirements.txt
 
@@ -161,3 +161,9 @@ The test suite covers Pydantic schema validation for all five agent response typ
 **Backend:** Flask 3, Flask-Limiter, SQLite (WAL mode), OpenAI Python SDK, Pydantic v2, pdfplumber, pytesseract  
 **Frontend:** React 18, react-scripts (no UI library, all custom CSS)  
 **Testing:** pytest, pytest-mock
+
+---
+
+## License
+
+MIT. See [`LICENSE`](LICENSE).
